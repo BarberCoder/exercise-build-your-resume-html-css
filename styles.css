@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.container{
+    max-width: 900px;
+    margin: auto;
+    background-color: lightblue;
+}
+.intro{
+    width: 400px;
+    padding-bottom: 40px;
+}
+.header{
+    display: flex;
+}
+.contact{
+  padding-left: 225px;
+}
+.contact li{
+    list-style: none;
+}
