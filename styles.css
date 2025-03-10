@@ -1,10 +1,10 @@
 body {
     font-family: Arial, Helvetica, sans-serif; 
-    max-width: 1000px;
-    margin: auto;
 }
 .container{
-
+    max-width: 1000px;
+    margin: auto; 
+    padding: 0; 
 }
 .intro{
     width: 400px;
@@ -14,11 +14,13 @@ body {
 .header{
     padding: 10px;
     display: flex;
-    background-color: rgb(239, 243, 244);
+    background-color: rgb(213, 237, 245);
     justify-content: space-between;
     align-items: center;
 }
-
+.intro h1{
+    margin-bottom: 5px;
+}
 .contact li{
     list-style: none;
     color: rgb(117, 117, 117);
@@ -42,8 +44,71 @@ body {
 }
 .year {
     font-size: 8pt;
-    border-right: 2px solid grey;
+    padding-right: 20px;
 }
+.year p{
+    padding-bottom: 70px;
+    padding-top: 25px;
+}
+.school {
+    border-left: 1px solid grey;
+}
+
 .school p{
+display: inline-block; 
+margin-right: 20px; 
+margin-bottom: 0;
+color: lightblue;
+margin-bottom: 0;
+margin-top: 0;
+}
+.split{
     display: flex;
+}
+.school li{
+    color: rgb(117, 117, 117);
+}
+.tech ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between; /* Distribute the list items evenly */
+    flex-wrap: wrap;
+
+}
+.tech ul li{
+    background-color: lightblue;
+    padding: 8px;
+    border-radius: 5px;
+}
+.work {
+    display: flex;
+    text-align: right;
+}
+.company{
+    border-left: 1px solid gray;
+}
+.company p{
+display: inline-block; 
+margin-right: 20px; 
+margin-bottom: 0;
+color: lightblue;
+margin-bottom: 0;
+margin-top: 0;
+padding-left: 90px;
+}
+.workyears {
+    padding-top: 45px;
+}
+.company h2 {
+    text-align: left;
+}
+.company ul li{
+    color: rgb(117, 117, 117);
+}
+.footer {
+    display: flex;
+    background-color: rgb(213, 237, 245);
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px;
 }
