@@ -28,6 +28,7 @@ body {
 }
 .intro h3{
     color: rgb(117, 117, 117);
+    margin-top: 0;
 }
 .intro p{
     color: rgb(117, 117, 117);
@@ -43,7 +44,7 @@ body {
     display: flex;
 }
 .year {
-    font-size: 8pt;
+    font-size: 9pt;
     padding-right: 20px;
 }
 .year p{
@@ -64,6 +65,7 @@ margin-top: 0;
 }
 .split{
     display: flex;
+    padding-bottom: 20px;
 }
 .school li{
     color: rgb(117, 117, 117);
@@ -99,7 +101,7 @@ padding-left: 90px;
 .workyears {
     padding-top: 45px;
 }
-.company h2 {
+.company h3 {
     text-align: left;
 }
 .company ul li{
@@ -110,5 +112,10 @@ padding-left: 90px;
     background-color: rgb(213, 237, 245);
     justify-content: space-between; 
     align-items: center;
-    padding: 20px;
+    height: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.left{
+    width: 65%;
 }
